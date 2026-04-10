@@ -6,7 +6,7 @@ const NotifikasiMaksimum = () => {
   if (count <= 100) return null;
   return (
     <div style={{ marginTop: "20px", color: "darkred", fontWeight: "bold" }}>
-      Peringatan: Angka sudah mencapai {count} (Lebih dari 50!)
+      Peringatan: Angka sudah mencapai {count} (Lebih dari 100!)
     </div>
   );
 };
